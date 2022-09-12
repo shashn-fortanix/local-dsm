@@ -3,6 +3,7 @@ module terraform-provider-dsm
 go 1.15
 
 require (
+
 	github.com/agext/levenshtein v1.2.3 // indirect
 	github.com/aws/aws-sdk-go v1.44.64
 	github.com/hashicorp/errwrap v1.1.0 // indirect
