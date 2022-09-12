@@ -1,0 +1,2 @@
+go get
+make install
