@@ -12,3 +12,4 @@ find ~/workspace/jenkintegration -type f -print0 | sort -z | xargs -0 sha1sum | 
 sq-dsm sign --dsm-key="signerJ1" hash > hash.sign
 sq-dsm verify --signer-cert="signerJ.asc" hash.sign
 
+
